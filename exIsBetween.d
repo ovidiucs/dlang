@@ -2,7 +2,7 @@ import std.stdio;
 
 void main()
 {
-   int value = 15;
+   int value = 150;
 
-   writeln("Is between: ", (10 < value) < 20);
+   writeln("Is between: ", (value > 10 && value < 20));
 }
