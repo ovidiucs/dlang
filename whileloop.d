@@ -23,4 +23,21 @@ void main()
       writeln("Thank you for ", number);
    }
    writeln("Exited the loop");
+   while (true) {
+      write("0:Exit, 1:Turkish, 2:English - Your choice? ");
+
+      int choice;
+      readf(" %s", &choice);
+
+      if (choice == 0) {
+         writeln("See you later aligator.");
+         break;    // Will exit the loop
+      } else if (choice == 1) {
+         writeln("Merhaba!");
+      } else if (choice == 2) {
+         writeln("Hello!");
+      } else {
+         writeln("I don't know that... :/");
+      }
+   }
 }
