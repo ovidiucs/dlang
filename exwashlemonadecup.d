@@ -7,7 +7,8 @@ void main()
    if (existsLemonade) {
       writeln("Drinking lemonade");
       writeln("Washing the cup");
-   } else
+   } else {
       writeln("Eating pie");
       writeln("Washing the plate");
+   }
 }
