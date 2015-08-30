@@ -13,9 +13,12 @@ void main()
    int studentCount;
    readf("%s", &studentCount);
 
+// Use a whitespace in %s to show to the program that the enter key. Tab character, Enter key ->
+// whitespace characters
+
    write("How many teachers are there ? ");
    int teacherCount;
-   readf("%s", &teacherCount);
+   readf(" %s", &teacherCount);
 
    writeln("Ok. Thre are ", studentCount, " students", 
           " and ", teacherCount, " teachers.");
