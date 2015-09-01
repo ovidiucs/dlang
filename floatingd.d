@@ -39,5 +39,12 @@ void main()
 
    value /= 2;
    writeln("Divided in half         : ", value);
+   
+   if (double.nan == double.nan) {
+      writeln("equal");
+   } else {
+      writeln("not equal");
+   }
+   // use isNan variable for equality comparison
 
 }

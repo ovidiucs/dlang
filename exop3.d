@@ -3,8 +3,8 @@ import std.stdio;
 void main()
 {
    while (true) {
-      int num_1;
-      int num_2;
+      double num_1;
+      double num_2;
       int opt;
 
       write("Enter two numbers: ");
@@ -23,6 +23,5 @@ void main()
          writeln(num_1 * num_2);
       } 
       break;
-
    }
 }
