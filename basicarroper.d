@@ -31,4 +31,29 @@ void main()
       sort(array_a);
       reverse(array_a);
       writeln(array_a);
+   // array cont
+      int[5] simpleArr = [ 0, 1, 2, 3, 4 ];
+      // copy
+      int[]  sDupArr   = simpleArr.dup;
+      int[5] otherArr  = 1;
+      writeln(" Initial Array: ", simpleArr);
+      // slice
+      writeln(" Slice :", simpleArr[2..4]);
+      // length
+      writeln(" Array Length: ",simpleArr[$ - 1]);
+      // assignment
+      simpleArr = otherArr;
+      writeln(simpleArr);
+      // slice and assignment
+      int[] odds = [1,3,5,7,9,11];
+      int[] evens = [2,4,6,8,10];
+
+      int[] slice;
+
+      slice = odds[2 .. $ - 2];
+      writeln(slice);
+
+      slice = evens[1 .. $ - 1];
+      writeln(slice);
+
 }
