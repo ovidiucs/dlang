@@ -16,9 +16,9 @@ void main()
          q = q ~'*';
          writeln(q);
       } else {
-         q = q ~'*';
          q = q ~' ';
          writeln(q);
+         q = q ~'*';
       }
    }
 }
