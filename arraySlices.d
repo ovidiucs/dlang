@@ -58,7 +58,7 @@ void main()
    // using capacity to determine if sharing will be terminated
    writeln("===");
    int[] aSlice = [ 1, 3, 5, 7, 9, 11, 13, 15 ];
-   int[] ohalf   = aSlice[ 0 .. $ / 2];
+   int[] ohalf   = aSlice[ 0 .. $ / aSlice.length];
    int[] oquarter = aSlice[ 0 .. $ / 4];
 
    aSlice ~= 42;        // adding to the longest slice
@@ -91,4 +91,16 @@ void main()
    writeln("ac: ",ac," bc :",bc," result: ",result);
    result[] /= 4;
    writeln(result);
+   writeln("===");
+   // 2d array
+   int[][] mdimArray = [ 
+                    [ 10, 11, 12],
+                    [ 20, 21, 22],
+                    [ 30, 31, 32],
+                    [ 40, 41, 42]
+                  ];
+   writeln(mdimArray[1], " " ,mdimArray[1][0]);
+   int[][] s = new int[][](2,3);
+   writeln(s);
+
 }
