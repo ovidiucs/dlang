@@ -19,5 +19,6 @@ void main()
          q = q ~' ';
          q = q ~'*';
          writeln(q);
+      }
    }
 }
