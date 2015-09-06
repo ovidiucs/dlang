@@ -9,10 +9,11 @@ void main()
       p = p ~'*';
       writeln(p);
    }
+   char[] q;
    for (int z = 0; z < i; ++z)
    {
-      p = p ~'*';
+      q = q ~'*';
       writeln(p);
-      p = p ~' ';
+      q = q ~' ';
    }
 }
