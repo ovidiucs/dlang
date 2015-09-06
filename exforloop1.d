@@ -7,6 +7,6 @@ void main()
             write(j);
          }
 
-      write(i,",");
+      writeln(i,",");
    }
 }
