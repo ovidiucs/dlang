@@ -3,6 +3,8 @@ import std.string;
 // formatRead for parsing strings
 // returns as readf also - the number of items that they could parse and convert
 // succesflly
+// Keywords: readln, chomps, std.string, std.format, 
+// strng, wstring, dstring
 import std.format;
 void main()
 {
@@ -34,4 +36,17 @@ void main()
           writeln("Your name is ", name, 
          ", and your age is ", age, ".");
    }
+//   char[] is mutable
+//   string is not
+   char[] s = "hello".dup;
+   s[0] = 'H';
+   writeln(s);
+   // idup produces immutable strings
+   // string result = (s~'.').idup; 
+   // when dealing with letters, symbols and other unicode characters 
+   dchar[] s = "résumé".dup;
+   writeln("Before: ", s);
+   s[1] = 'e';
+   s[5] = 'e';
+   writeln("After: ", s);
 }
