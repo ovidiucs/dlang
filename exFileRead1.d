@@ -6,7 +6,7 @@ void main()
 
    write("What is the file name to read? :");
    string fname = chomp(readln());
-   string outname = fname,".out";
+   char[] outname = fname,".out";
    File file = File(fname, "r");
    File file_out = File(outname, "w");
 
