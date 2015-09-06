@@ -13,7 +13,7 @@ void main()
    for (int z = 0; z < i; ++z)
    {
       q = q ~'*';
-      writeln(p);
+      writeln(q);
       q = q ~' ';
    }
 }
