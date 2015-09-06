@@ -6,5 +6,5 @@ void main()
    auto distance = 1.2;
    auto greeting = "Hello";
 
-   writeln(duration.stringof,distance.stringof,greeting.stringof);
+   writeln(typeid(duration), typeid(distance), typeid(greeting));
 }
