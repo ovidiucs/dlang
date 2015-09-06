@@ -6,6 +6,6 @@ void main()
          for (int j=0; j<9; ++j){
             writeln(j);
          }
-      writeln(i);
+      write(i);
    }
 }
