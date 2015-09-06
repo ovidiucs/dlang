@@ -9,4 +9,10 @@ void main()
       p = p ~'*';
       writeln(p);
    }
+   for (int z = 0; z < i; ++z)
+   {
+      p = p ~'*';
+      writeln(p);
+      p = p ~' ';
+   }
 }
