@@ -6,7 +6,7 @@ void main()
 
    write("What is the file name to read? :");
    string fname = chomp(readln());
-   char[] outname = fname,".out";
+   string outname = fname.out;
    File file = File(fname, "r");
    File file_out = File(outname, "w");
 
@@ -17,6 +17,3 @@ void main()
    file.close();
    file_out.close();
 }
-
-
-
