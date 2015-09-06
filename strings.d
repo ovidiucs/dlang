@@ -44,9 +44,9 @@ void main()
    // idup produces immutable strings
    // string result = (s~'.').idup; 
    // when dealing with letters, symbols and other unicode characters 
-   dchar[] s = "résumé".dup;
-   writeln("Before: ", s);
-   s[1] = 'e';
-   s[5] = 'e';
-   writeln("After: ", s);
+   dchar[] s2 = "résumé".dup;
+   writeln("Before: ", s2);
+   s2[1] = 'e';
+   s2[5] = 'e';
+   writeln("After: ", s2);
 }
