@@ -26,7 +26,12 @@ void main()
 
    string name;
    int age;
-   formattedRead(line, " %s %s", &name, &age);
-   writeln("Your name is ", name, 
+   uint items = formattedRead(line, " %s %s", &name, &age);
+   // check to see if number of items is 2
+   if (items != 2) {
+      writeln("Error: Unexpect line.");
+   } else {
+          writeln("Your name is ", name, 
          ", and your age is ", age, ".");
+   }
 }
