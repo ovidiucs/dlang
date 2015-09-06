@@ -6,7 +6,7 @@ void main()
    char[] p;
    for (int z = 0; z < i; ++z)
    {
-      p[z] ~= '*';
+      p = ~'*';
       writeln(p);
    }
 }
