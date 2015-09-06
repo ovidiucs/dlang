@@ -22,7 +22,7 @@ void main()
    string namea = chomp(readln());
    writeln("Hello ", namea , "!");
    write("Please enter your name and age," 
-         " separated tiwh a space: ");
+         " separated with a space: ");
 
    string line = chomp(readln());
 
