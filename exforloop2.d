@@ -12,8 +12,12 @@ void main()
    char[] q;
    for (int z = 0; z < i; ++z)
    {
-      q = q ~'*';
-      writeln(q);
-      q = q ~' ';
+      if (z == 0) {
+         q = q ~'*';
+         writeln(q);
+      } else {
+         q = q ~' ';
+         q = q ~'*';
+         writeln(q);
    }
 }
