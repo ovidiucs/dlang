@@ -3,9 +3,10 @@ import std.stdio;
 void main()
 {
    int i=9;
-   auto o = "*";
+   char p[];
    for (int z = 0; z < i; ++z)
    {
-      writeln(o*z);
+      p ~= '*';
+      writeln(p);
    }
 }
