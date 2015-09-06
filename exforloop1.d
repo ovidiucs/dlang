@@ -8,5 +8,6 @@ void main()
          for (int j=0; j<9; ++j){
             table[][j] = j;
          }
+   }
    writeln(table);
 }
