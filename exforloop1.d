@@ -7,5 +7,4 @@ void main()
             writeln(i,j);
          }
    }
-   writeln(table);
 }
