@@ -3,7 +3,7 @@ import std.stdio;
 void main()
 {
    int[9][9] table;
-   for (int i = 0; i < 9; ++i]{
+   for (int i = 0; i < 9; ++i]){
          write(table[i]);
          }
 }
