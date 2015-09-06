@@ -15,7 +15,7 @@ void main()
       file_out.writeln("read _line -> | ", line);
       }
    file.close();
-   file_out.close()
+   file_out.close();
 }
 
 
