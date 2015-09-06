@@ -4,11 +4,11 @@ import std.string;
 void main()
 {
 
-   write("What is the file name?");
+   write("What is the file name to read? :");
    string fname = chomp(readln());
-   string outname = "out";
+   string outname = write(fname,".out");
    File file = File(fname, "r");
-   File file_out = File("outname", "w");
+   File file_out = File(outname, "w");
 
    while(!file.eof()) {
       string line = chomp(file.readln());
