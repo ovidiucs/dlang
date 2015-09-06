@@ -49,4 +49,15 @@ void main()
    s2[1] = 'e';
    s2[5] = 'e';
    writeln("After: ", s2);
+
+   string str = "résumé"c;
+   wstring strw = "résumé"w;
+   dstring strd = "résumé"d;
+
+   writeln(str.length);
+   writeln(strw.length);
+   writeln(strd.length);
+
+
+
 }
