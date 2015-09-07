@@ -29,7 +29,7 @@ void main()
       for (int x = 0; x < i; ++x) 
       {
          write("*");
-         writeln();
       }
+         writeln();
    }
 }
