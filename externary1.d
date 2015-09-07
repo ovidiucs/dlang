@@ -7,6 +7,6 @@ void main()
    write("Enter ammount negative or positive: ");
    int value;
    readf(" %s",&value);
-   writeln((value < 0) ? "$",to!string(value) : "$",
-         to!string(value)," gained");
+   ((value < 0) ? writeln("$",to!string(value)," lost"); : writeln("$",
+         to!string(value)," gained"));
 }
