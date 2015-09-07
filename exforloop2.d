@@ -21,7 +21,7 @@ void main()
          q = q ~'*';
       }
    }
-   char s[];
+   char[] s;
    for (int z = 0; z < i; ++z)
    {
       s = s ~' ';
