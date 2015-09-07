@@ -27,6 +27,6 @@ void main()
       {
          write("*");
       }
-      write(" ");
+      writeln();
    }
 }
