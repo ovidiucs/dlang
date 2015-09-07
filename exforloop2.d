@@ -25,7 +25,7 @@ void main()
    for (int z = 0; z < i; ++z)
    {
       s = s ~' ';
-      writeln(s);
+      write(s);
       for (int x = 0; x < i; ++x) 
       {
          write("*");
