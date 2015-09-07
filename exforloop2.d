@@ -21,11 +21,11 @@ void main()
          q = q ~'*';
       }
    }
-   q[] = 'x';
+   char s[];
    for (int z = 0; z < i; ++z)
    {
-      q = q ~' ';
-      writeln(q);
+      s = s ~' ';
+      writeln(s);
       for (int x = 0; x < i; ++x) 
       {
          write("*");
