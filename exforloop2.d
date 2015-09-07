@@ -21,4 +21,12 @@ void main()
          q = q ~'*';
       }
    }
+   for (int z = 0; z < i; ++z)
+   {
+      for (int q = 0; q < i; ++q) 
+      {
+         writeln("*");
+      }
+      writeln(" ");
+   }
 }
