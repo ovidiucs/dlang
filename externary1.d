@@ -5,7 +5,7 @@ import std.string;
 void main()
 {
    write("Enter ammount negative or positive: ");
-   auto value = chomp(readln());
+   int value = chomp(readln());
    writeln((value < 0) ? "$",to!string(value)," lost" : "$",
          to!string(value)," gained");
 }
