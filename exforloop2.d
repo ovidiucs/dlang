@@ -21,7 +21,7 @@ void main()
          q = q ~'*';
       }
    }
-   q[] = ' ';
+   q[] = 'x';
    for (int z = 0; z < i; ++z)
    {
       q = q ~' ';
