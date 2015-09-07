@@ -7,5 +7,5 @@ void main()
    write("Enter ammount negative or positive: ");
    readf("%s", &value);
    writeln((value < 0) ? "$",to!string(value)," lost" : "$",
-         to!string(value),"gained");
+         to!string(value)," gained");
 }
