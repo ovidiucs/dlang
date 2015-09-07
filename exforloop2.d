@@ -23,10 +23,10 @@ void main()
    }
    for (int z = 0; z < i; ++z)
    {
+      writeln(q);
       for (int x = 0; x < i; ++x) 
       {
          write("*");
       }
-      writeln("x");
    }
 }
