@@ -21,6 +21,7 @@ void main()
          q = q ~'*';
       }
    }
+   q = ' ';
    for (int z = 0; z < i; ++z)
    {
       writeln(q);
