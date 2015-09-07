@@ -23,7 +23,7 @@ void main()
    }
    for (int z = 0; z < i; ++z)
    {
-      for (int q = 0; q < i; ++q) 
+      for (int x = 0; x < i; ++x) 
       {
          writeln("*");
       }
