@@ -1,11 +1,11 @@
 import std.stdio;
 import std.conv;
+import std.string;
 
 void main()
 {
-   int value;
    write("Enter ammount negative or positive: ");
-   readln(&value);
+   auto value = chomp(readln());
    writeln(value < 0 ? "$",to!string(value)," lost" : "$",
          to!string(value)," gained");
 }
